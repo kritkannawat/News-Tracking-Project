@@ -15,7 +15,7 @@
       </header>
 
       <!-- Category Navigation -->
-      <nav class="nav nav-underline justify-content-between custom-nav flex-wrap flex-nowrap">
+      <nav class="nav nav-underline justify-content-between custom-nav flex-wrap flex-nowrap overflow-auto">
         <button v-for="category in categories" :key="category" class="nav-item nav-link link-body-emphasis"
           @click="changeCategory(category)">
           {{ capitalize(category) }}
